@@ -1,0 +1,8 @@
+name: 'masterupend'# 应用商店模板名称
+description: |
+  # 应用商店模板描述
+version: '0' # 应用商店模板对应的版本
+category:  # 用于模板搜索时的目录
+maintainer: 'lk' # 该模板的维护者
+license: 'git'# 许可类型
+projectURL:  'https://gitlab.lkzflzylzx.top/lk/testrancher.git' # 和模板相关的URL
