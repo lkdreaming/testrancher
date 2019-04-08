@@ -1,8 +1,8 @@
-name: 'masterupend'
+name: masterupend
 description: |
-  'master upend'
-version: '0'
-category: 'demo'
-maintainer: 'lk'
-license: 'git'
-projectURL:  'https://gitlab.lkzflzylzx.top/lk/testrancher.git'
+  master upend
+version: 0
+category: demo
+maintainer: lk
+license: git
+projectURL:  https://gitlab.lkzflzylzx.top/lk/testrancher.git
