@@ -1,0 +1,23 @@
+version: '0'
+services:
+  masterupend:
+    ports:
+     - "30080:80"
+     - "30443:443"
+    volumes:
+     - /home/program_box/rpc_core_api/storage/log:/home/program_box/rpc_core_api/storage/log
+     - /etc/localtime:/etc/localtime
+    image: "registry.cn-qingdao.aliyuncs.com/vanthink/rpc_core_api:20190314094156"
+    environment:
+     - RPC_CORE_API_SCHEDULE_RUN='off'
+     - QUEUE='off'
+     - PHPFPM_PORT=9000
+     - PHPFPM_IP='0.0.0.0'
+     - NodeJs='off'
+     - Nginx='on'
+     - ENVIRONMENT='test'
+     - Crontab='off'
+     - CLIENT='rpc_core_api'
+    expose:
+     - "80"
+     - "443"
